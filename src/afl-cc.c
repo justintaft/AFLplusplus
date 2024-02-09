@@ -3177,7 +3177,7 @@ static void process_params(aflcc_state_t *aflcc, u8 scan, u32 argc,
               state_ = fsm_single_quote;
               cur_chr = fgetc(f);
 
-            } else if (cur_chr == (int)'\"') {
+            } else if (cur_chr == (int)'"') {
 
               state_ = fsm_double_quote;
               cur_chr = fgetc(f);
